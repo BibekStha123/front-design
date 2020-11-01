@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    background: white;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 100, 0.5), rgba(0, 0, 100, 0.5)), url(../img//background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 140vh;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 40px;
+    z-index: 1;
+}
+
+nav ul {
+    float: right;
+    margin: 0;
+    padding-right: 42px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 32px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500px;
+    letter-spacing: 2px;
+}
+
+.nav-logo {
+    width: 90px;
+    float: left;
+    margin: 5px 48px;
+}
+
+nav.black {
+    background: rgba(0, 0, 0, 0.78);
+}
+
+.top-detail {
+    color: whitesmoke;
+}
+
+.desc-header {
+    font-size: 40px;
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+.desc-para {
+    font-size: 16px;
+    color: #525252;
+    line-height: 30px;
+}
+
+.services-header {
+    font-size: 40px;
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+.services-body {
+    font-size: 16px;
+    color: #525252;
+    line-height: 30px;
+}
+
+.services-img {
+    width: 80%;
+    height: 80%;
+}
+
+
+.dine-tab span {
+    color: black;
+}
+
+.dine-tab {
+    border: solid;
+    width: 70%;
+}
+
+.dine-tab:hover {
+    background-color: lightsteelblue;
+    cursor: pointer;
+}
+
+.dine-img {
+    width: 80%;
+}
+
+.hidden {
+    display: none;
+}
+
+.card {
+    height: 18rem;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 400;
+    color: #1e1e1e;
+}
+
+.footer {
+    background: #1e1e1e;
+}
+
+.footer h3, span {
+    color: white;
+}
+
+.solution-list {
+    text-align: left;
+    margin-left: 150px;
+}
+
+.now-the-menu-list {
+    text-align: left;
+    margin-left: 120px;
+}
+
+@media all and (max-width: 500px) {
+    header {
+        height: 145vh;
+    }
+
+    .desc-header {
+        padding-top: 1000px;
+    }
+
+    .card {
+        height: 21rem;
+    }
+
+    .now-the-menu {
+        padding-left: 35px;
+    }
+
+    .solution {
+        padding-right: 20px;
+    }
+
+    .now-the-menu-list {
+        text-align: left;
+        margin-left: 125px;
+    }
+
+    .solution-list {
+        margin-left: 34%;
+    }
+
+}
